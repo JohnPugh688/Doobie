@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-lesson-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "deploy": "gh-pages -d build",
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://JohnPugh688.github.io/Doobie",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.5.7"
+  },
+  "dependencies": {
+    "gh-pages": "^6.1.0"
+  }
+}

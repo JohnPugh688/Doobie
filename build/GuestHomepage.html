@@ -1,0 +1,1073 @@
+<!doctype html>
+<html lang="en" class="sm:scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dobbie</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/main.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+  </head>
+
+  <body >
+
+    <header class= "flex flex-row justify-between max-w-screen-2xl p-4 h-[72px] bg-amber-400 ">
+
+  <div class="flex flex-row items-center">
+      
+      <button id="hamburger-button" data-collapse-toggle="navbar-hamburger" type="button" class="inline-flex items-center justify-center p-2 w-10 h-10 text-sm text-cyan-950 rounded-lg  focus:outline-none focus:ring-2 focus:ring-cyan-950 dark:text-cyan-950  dark:focus:ring-gray-600" aria-controls="navbar-hamburger" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1 1h15M1 7h15M1 13h15"/>
+      </svg>
+      
+    </button>
+   
+    
+  <div class="hidden left-1 top-full w-[300px] max-h-full bg-white" id="navbar-hamburger">
+
+    <ul class="shadow-md relative flex flex-col  font-medium rounded-lg bg-gray-50 dark:bg-gray-800 dark:border-gray-700">
+
+      <div> <button class="shadow-sm flex flex-row mx-6 mt-6 mb-1 justify-center bg-lightgrey text-cyan-950 hover:bg-cyan-950 hover:text-white rounded-full items-center w-[252px] h-[48px]">Sign up</button> 
+      </div>
+
+      <div><button class="shadow-sm flex flex-row mx-6 justify-center bg-lightgrey text-cyan-950 hover:bg-cyan-950 hover:text-white rounded-full items-center mb-10 w-[252px] h-[48px]">Login</button>
+      </div>
+
+      
+        <li>
+          <a href="#" class="block py-2 px-3 text-cyan-950 bg-gray-50 hover:bg-cyan-950 hover:text-white rounded dark:bg-blue-600" aria-current="page">Shop</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-cyan-950 bg-gray-50 hover:bg-cyan-950 hover:text-white rounded dark:bg-blue-600" aria-current="page">Merch</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-cyan-950 bg-gray-50 hover:bg-cyan-950 hover:text-white rounded dark:bg-blue-600" aria-current="page">Blog</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-cyan-950 bg-gray-50 hover:bg-cyan-950 hover:text-white rounded dark:bg-blue-600" aria-current="page">Contact</a>
+        </li>
+        <li>
+          <a href="#" class="block py-2 px-3 text-cyan-950 bg-gray-50 hover:bg-cyan-950 hover:text-white rounded dark:bg-blue-600" aria-current="page">FAQs</a>
+        </li>
+
+        <div class="flex flex-row justify-end w-full justify-items-center">
+          <button class="bg-lightblue text-cyan-950 hover: hover:text-white rounded-full w-9 h-9">
+          <img src="img/wheel_right_bl 1.png" alt="wheel chair image">
+        </button>
+        </div>
+
+        
+     
+      </ul>
+    </div>
+
+    <div>
+      <img class="pl-4" src="img/doobie.png" alt="Logo">
+    </div>
+    
+  </div>
+
+    <div class="flex flex-row justify-center items-center min-w-fit h-[40px]"></div>
+
+    <div class="flex justify-end items-center h-[40px] ">
+      <button class="flex justify-center items-center bg-white w-[72px] h-9 rounded-full">
+        <img src="img/Cart.png" alt="cart">
+      </button>
+      <button class="ml-2 flex justify-center items-center bg-cyan-950 w-9 h-9 rounded-full">
+        <img src="img/Profile.png" alt="profile pic">
+      </button>
+   </div>
+
+    </header>
+
+    <section class="w-full h-[210px] shadow-xl rounded-b-xl px-4 bg-amber-400">
+      <h1 class="flex justify-center text-cyan-950 text-3xl font-bold font-['Gascogne-Bold']">Cannabis, delivered.</h1>
+      <p class="flex justify-center text-cyan-950 text-sm font-normal font-sans">Right to your door. Or anywhere you want.</p>
+
+     <form class="h-12 w-full mt-4">
+      <img class="absolute pt-3 pl-2" src="img/Location.png" alt="locationid">
+          <input type="search" id="location-search" class="flex pl-10 border-hidden focus:border-cyan-950 items-center w-full h-full text-gray-400 text-sm font-normal font-['Good Sans'] leading-[16.80px] bg-white rounded-lg" placeholder="Enter a delivery address" required>
+         
+    </form>
+  
+      <div class="flex flex-row items-center justify-start w-full h-12 rounded-lg bg-orange-500 mt-4 mb-4">
+        <button type="submit" class="flex w-full h-full items-center justify-center text-sm font-medium text-white hover:bg-cyan-950 hover:rounded-lg ">Confirm
+      </button>
+      </div>
+    </section>
+
+    <section class="w-full h-[92px] px-4 bg-white overflow-x-scroll">
+
+     <ul class="flex flex-row ">
+      <li class="w-[79.35px] h-[92px] flex flex-col mx-4 justify-center items-center">
+        <button class="w-16 h-16">
+          <img src="img/shopall.png" alt="">
+        </button>
+        <p>Shop all</p>
+      </li>
+
+      <li class="w-[79.35px] h-[92px] flex flex-col mx-4 justify-center items-center">
+        <button class="w-16 h-16">
+          <img src="img/Flower.png" alt="">
+        </button>
+        <p>Flowers</p>
+      </li>
+
+      <li class="w-[79.35px] h-[92px] flex flex-col mx-4 justify-center items-center">
+        <button class="w-16 h-16">
+          <img src="img/vapes.png" alt="">
+        </button>
+        <p>Vapes</p>
+      </li>
+
+      <li class="w-[79.35px] h-[92px] flex flex-col mx-4 justify-center items-center">
+        <button class="w-16 h-16">
+          <img src="img/Edibles.png" alt="">
+        </button>
+        <p>Edibles</p>
+      </li>
+
+      <li class="w-[79.35px] h-[92px] flex flex-col mx-4 justify-center items-center">
+        <button class="w-16 h-16">
+          <img src="img/spliff.png" alt="">
+        </button>
+        <p>Prerolls</p>
+      </li>
+
+      <li class="w-[79.35px] h-[92px] flex flex-col mx-4 justify-center items-center">
+        <button class="w-20 h-16 bg-zinc-300 rounded-[10px]">
+         
+        </button>
+        <p>Shop all</p>
+      </li>
+     </ul>
+
+    </section>
+
+    <section class="w-full h-48 flex flex-row overflow-x-scroll px-2">
+      
+      <ul class="flex flex-row" >
+        <li class="w-[343px] h-full flex flex-col justify-between rounded-lg bg-sky-950 mx-1">
+          <h1 class="text-white m-4 text-2xl font-thin font-['Gascogne-Bold'] uppercase leading-[28.80px]">Late night<br/>delivery!</h1>
+
+          <button class="w-[104px] h-[34px] px-4 py-[7px] bg-white rounded-[5px] justify-center items-center gap-2.5 inline-flex m-4">test</button>
+        </li>
+
+        <li class="w-[343px] h-full flex flex-col justify-between rounded-lg bg-red-400 mx-1">
+          <h1 class="text-white m-4 text-2xl font-thin font-['Gascogne-Bold'] uppercase leading-[28.80px]">Header line 1<br/>Header line 2</h1>
+
+          <button class="w-[104px] h-[34px] px-4 py-[7px] bg-white rounded-[5px] justify-center items-center gap-2.5 inline-flex m-4">test</button>
+        </li>
+
+      </ul>
+    </section>
+
+    <section class="max-w-screen-2xl h-[614px] m-4 bg-white rounded-lg my-2">
+
+      <div class="flex flex-row justify-between">
+        <h1 class="ext-sky-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">Deals</h1>
+
+        <div><button class="text-right text-sky-950 text-sm font-medium font-['Good Sans'] underline leading-[16.80px]">View all</button>
+          <button>
+            <svg class="ml-2" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.248205 9.75851C0.0902282 9.57683 0.00764908 9.37419 0.000468312 9.15059C-0.00671246 8.92699 0.0758667 8.73134 0.248205 8.56364L3.88885 5.02095L0.226662 1.45729C0.0686854 1.30357 -0.00671246 1.10442 0.000468312 0.859857C0.00764908 0.615293 0.0902282 0.416148 0.248205 0.262422C0.434905 0.0807451 0.639557 -0.00659936 0.86216 0.000388198C1.08476 0.00737575 1.28224 0.0947202 1.45457 0.262422L5.74149 4.43399C5.82766 4.51784 5.89229 4.60868 5.93537 4.70651C5.97846 4.80433 6 4.90915 6 5.02095C6 5.13275 5.97846 5.23756 5.93537 5.33539C5.89229 5.43321 5.82766 5.52405 5.74149 5.6079L1.47612 9.75851C1.30378 9.92621 1.10272 10.0066 0.872931 9.99958C0.643147 9.99259 0.434905 9.91224 0.248205 9.75851Z" fill="#4A7DBA"></path>
+            </svg>
+          </button>
+          </div>
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"> test</div>
+        
+        </div>
+
+        
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 bg-amber-400 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]">$25.00</h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="hidden justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"> test</div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 bg-amber-400 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]">$25.00</h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+
+       
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="hidden justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"> test</div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 bg-amber-400 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]">$25.00</h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+    </section> 
+    
+    <section class="max-w-screen-2xl h-[614px] m-4 bg-white rounded-lg my-2">
+
+      <div class="flex flex-row justify-between">
+        <h1 class="ext-sky-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">Flower</h1>
+
+        <div><button class="text-right text-sky-950 text-sm font-medium font-['Good Sans'] underline leading-[16.80px]">See all</button>
+          <button>
+            <svg class="ml-2" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.248205 9.75851C0.0902282 9.57683 0.00764908 9.37419 0.000468312 9.15059C-0.00671246 8.92699 0.0758667 8.73134 0.248205 8.56364L3.88885 5.02095L0.226662 1.45729C0.0686854 1.30357 -0.00671246 1.10442 0.000468312 0.859857C0.00764908 0.615293 0.0902282 0.416148 0.248205 0.262422C0.434905 0.0807451 0.639557 -0.00659936 0.86216 0.000388198C1.08476 0.00737575 1.28224 0.0947202 1.45457 0.262422L5.74149 4.43399C5.82766 4.51784 5.89229 4.60868 5.93537 4.70651C5.97846 4.80433 6 4.90915 6 5.02095C6 5.13275 5.97846 5.23756 5.93537 5.33539C5.89229 5.43321 5.82766 5.52405 5.74149 5.6079L1.47612 9.75851C1.30378 9.92621 1.10272 10.0066 0.872931 9.99958C0.643147 9.99259 0.434905 9.91224 0.248205 9.75851Z" fill="#4A7DBA"></path>
+            </svg>
+          </button>
+          </div>
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-red-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Sativa</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-blue-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Indica</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+
+       
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+    </section>
+    
+    <section class="flex flex-col justify-between max-w-screen-2xl h-48 bg-orange-50 rounded-lg p-4 m-4">
+      <div>
+        <ul class="ext-cyan-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">
+          <li>Header line 1</li>
+          <li>Header line 2</li>
+          <li>Header line 3</li>
+        </ul>
+      </div>
+
+      <div>
+        <button class="flex justify-center items-center w-16 h-8 bg-cyan-950 rounded-lg text-center text-white text-sm font-medium font-['Good Sans'] leading-[16.80px]">
+        CTA
+        </button>
+      </div>
+
+      
+    </section>
+
+    <section class="max-w-screen-2xl h-[614px] m-4 bg-white rounded-lg my-2">
+
+      <div class="flex flex-row justify-between">
+        <h1 class="ext-sky-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">Vapes</h1>
+
+        <div><button class="text-right text-sky-950 text-sm font-medium font-['Good Sans'] underline leading-[16.80px]">See all</button>
+          <button>
+            <svg class="ml-2" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.248205 9.75851C0.0902282 9.57683 0.00764908 9.37419 0.000468312 9.15059C-0.00671246 8.92699 0.0758667 8.73134 0.248205 8.56364L3.88885 5.02095L0.226662 1.45729C0.0686854 1.30357 -0.00671246 1.10442 0.000468312 0.859857C0.00764908 0.615293 0.0902282 0.416148 0.248205 0.262422C0.434905 0.0807451 0.639557 -0.00659936 0.86216 0.000388198C1.08476 0.00737575 1.28224 0.0947202 1.45457 0.262422L5.74149 4.43399C5.82766 4.51784 5.89229 4.60868 5.93537 4.70651C5.97846 4.80433 6 4.90915 6 5.02095C6 5.13275 5.97846 5.23756 5.93537 5.33539C5.89229 5.43321 5.82766 5.52405 5.74149 5.6079L1.47612 9.75851C1.30378 9.92621 1.10272 10.0066 0.872931 9.99958C0.643147 9.99259 0.434905 9.91224 0.248205 9.75851Z" fill="#4A7DBA"></path>
+            </svg>
+          </button>
+          </div>
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-red-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Sativa</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2  rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-blue-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Indica</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"> test</div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+
+       
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+    </section>
+
+    <section class="max-w-screen-2xl h-[614px] m-4 bg-white rounded-lg my-2">
+
+      <div class="flex flex-row justify-between">
+        <h1 class="ext-sky-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">Edibles</h1>
+
+        <div><button class="text-right text-sky-950 text-sm font-medium font-['Good Sans'] underline leading-[16.80px]">See all</button>
+          <button>
+            <svg class="ml-2" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.248205 9.75851C0.0902282 9.57683 0.00764908 9.37419 0.000468312 9.15059C-0.00671246 8.92699 0.0758667 8.73134 0.248205 8.56364L3.88885 5.02095L0.226662 1.45729C0.0686854 1.30357 -0.00671246 1.10442 0.000468312 0.859857C0.00764908 0.615293 0.0902282 0.416148 0.248205 0.262422C0.434905 0.0807451 0.639557 -0.00659936 0.86216 0.000388198C1.08476 0.00737575 1.28224 0.0947202 1.45457 0.262422L5.74149 4.43399C5.82766 4.51784 5.89229 4.60868 5.93537 4.70651C5.97846 4.80433 6 4.90915 6 5.02095C6 5.13275 5.97846 5.23756 5.93537 5.33539C5.89229 5.43321 5.82766 5.52405 5.74149 5.6079L1.47612 9.75851C1.30378 9.92621 1.10272 10.0066 0.872931 9.99958C0.643147 9.99259 0.434905 9.91224 0.248205 9.75851Z" fill="#4A7DBA"></path>
+            </svg>
+          </button>
+          </div>
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-red-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Sativa</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-blue-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Indica</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+
+       
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+    </section>
+
+    <section class="flex flex-col justify-between max-w-screen-2xl h-48 bg-orange-50 rounded-lg p-4 m-4">
+      <div>
+        <ul class="ext-cyan-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">
+          <li>Header line 1</li>
+          <li>Header line 2</li>
+          <li>Header line 3</li>
+        </ul>
+      </div>
+
+      <div>
+        <button class="flex justify-center items-center w-16 h-8 bg-cyan-950 rounded-lg text-center text-white text-sm font-medium font-['Good Sans'] leading-[16.80px]">
+        CTA
+        </button>
+      </div>
+
+      
+    </section>
+
+    <section class="max-w-screen-2xl h-[614px] m-4 bg-white rounded-lg my-2">
+
+      <div class="flex flex-row justify-between">
+        <h1 class="ext-sky-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">Under $20</h1>
+
+        <div><button class="text-right text-sky-950 text-sm font-medium font-['Good Sans'] underline leading-[16.80px]">See all</button>
+          <button>
+            <svg class="ml-2" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.248205 9.75851C0.0902282 9.57683 0.00764908 9.37419 0.000468312 9.15059C-0.00671246 8.92699 0.0758667 8.73134 0.248205 8.56364L3.88885 5.02095L0.226662 1.45729C0.0686854 1.30357 -0.00671246 1.10442 0.000468312 0.859857C0.00764908 0.615293 0.0902282 0.416148 0.248205 0.262422C0.434905 0.0807451 0.639557 -0.00659936 0.86216 0.000388198C1.08476 0.00737575 1.28224 0.0947202 1.45457 0.262422L5.74149 4.43399C5.82766 4.51784 5.89229 4.60868 5.93537 4.70651C5.97846 4.80433 6 4.90915 6 5.02095C6 5.13275 5.97846 5.23756 5.93537 5.33539C5.89229 5.43321 5.82766 5.52405 5.74149 5.6079L1.47612 9.75851C1.30378 9.92621 1.10272 10.0066 0.872931 9.99958C0.643147 9.99259 0.434905 9.91224 0.248205 9.75851Z" fill="#4A7DBA"></path>
+            </svg>
+          </button>
+          </div>
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-red-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Sativa</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-blue-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Indica</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+
+       
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+    </section>
+
+    <section class="max-w-screen-2xl h-[614px] m-4 bg-white rounded-lg my-2">
+
+      <div class="flex flex-row justify-between">
+        <h1 class="ext-sky-950 text-2xl font-thin font-['Gascogne-Bold'] leading-[28.80px]">Accesssories</h1>
+
+        <div><button class="text-right text-sky-950 text-sm font-medium font-['Good Sans'] underline leading-[16.80px]">See all</button>
+          <button>
+            <svg class="ml-2" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.248205 9.75851C0.0902282 9.57683 0.00764908 9.37419 0.000468312 9.15059C-0.00671246 8.92699 0.0758667 8.73134 0.248205 8.56364L3.88885 5.02095L0.226662 1.45729C0.0686854 1.30357 -0.00671246 1.10442 0.000468312 0.859857C0.00764908 0.615293 0.0902282 0.416148 0.248205 0.262422C0.434905 0.0807451 0.639557 -0.00659936 0.86216 0.000388198C1.08476 0.00737575 1.28224 0.0947202 1.45457 0.262422L5.74149 4.43399C5.82766 4.51784 5.89229 4.60868 5.93537 4.70651C5.97846 4.80433 6 4.90915 6 5.02095C6 5.13275 5.97846 5.23756 5.93537 5.33539C5.89229 5.43321 5.82766 5.52405 5.74149 5.6079L1.47612 9.75851C1.30378 9.92621 1.10272 10.0066 0.872931 9.99958C0.643147 9.99259 0.434905 9.91224 0.248205 9.75851Z" fill="#4A7DBA"></path>
+            </svg>
+          </button>
+          </div>
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-red-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Sativa</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-blue-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Indica</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+
+       
+      </div>
+
+      <div class="w-full h-44 p-2 border flex flex-row items-center border-gray-100 mt-4 rounded-lg">
+
+        <div class="flex flex-col">
+          <div class="flex justify-center items-center mb-1 w-14 h-5 bg-purple-600 rounded-md text-white text-[11px] font-medium font-['Good Sans'">Hybrid</div>
+
+        <div class="w-28 h-28 bg-gray-100 rounded-lg"></div>
+        
+        </div>
+
+        <div class="w-full h-44 my-2">
+
+           <div class="w-16 h-8 m-2 rounded-md p-1.5 flex justify-start items-center">$15.00<h1 class="p-4 ext-gray-500 text-sm font-light font-['Good Sans'] line-through leading-[18.20px]"></h1>
+           </div>
+
+           <div class="w-48 h-12 flex flex-col mx-2 text-sky-950 text-xs font-medium font-['Good Sans']">
+            <h1>Brand</h1>
+            <p class="font-light">Product line 1</p>
+            <p class="font-light">Product line 2</p>
+           </div>
+
+           <div class="w-32 flex flex-row justify-between items-center">
+              <div class="pl-2 text-gray-500 text-xs font-medium font-['Good Sans'] leading-loose">1/8oz</div>
+             
+              <img class="object-cover h-1 w-1" src="img/Ellipse 61.png" alt="">
+
+              <div class="text-gray-500 text-xs font-medium font-['Good Sans']">100mg THC</div>
+           </div>
+
+           <button class="w-52 h-10 flex justify-center items-center m-2 text-white bg-orange-500 rounded-lg">Add</button>
+
+      </div>
+         
+
+        
+      </div>
+
+    </section>
+
+
+
+<footer class="bg-sky-950">
+  <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+      <div class="md:flex md:justify-between">
+        <div class="mb-6 md:mb-0">
+          
+        </div>
+          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+            <div>
+                <h2 class="mb-6 text-white text-2xl font-thin font-['Gascogne-Bold']">Locations</h2>
+                <ul class="text-white text-sm font-medium font-['Good Sans'] leading-7">
+                    <li class="mb-2">
+                        <a href="" class="hover:underline">San Francisco</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="hover:underline">Palm Springs</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="" class="hover:underline">St. Louis</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="" class="hover:underline">Boston</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:underline">Cape Cod</a>
+                    </li>
+                </ul>
+            </div>
+
+            
+            <div class="pt-14">
+                <ul class="text-gray-500 dark:text-gray-400 text-sm font-normal font-['Good Sans'] leading-7">
+                    <li class="mb-2">
+                        <a href="" class="hover:underline">C10-000632-LIC</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="hover:underline">C10-0000284-LIC</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="" class="hover:underline">MO#DIS000031</a>
+                    </li>
+                    <li class="mb-2">
+                      <a href="" class="hover:underline">MD1258</a>
+                    </li>
+                    <li>
+                      <a href="" class="hover:underline">MD1258</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+              <h2 class="mb-6 text-white text-2xl font-thin font-['Gascogne-Bold'] dark:text-white">Menu</h2>
+              <ul class="text-white text-sm font-normal font-['Good Sans']m">
+                  <li class="mb-2">
+                      <a href="" class="hover:underline">Shop all</a>
+                  </li>
+                  <li class="mb-2">
+                      <a href="" class="hover:underline">Blog</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="" class="hover:underline">Contact</a>
+                  </li>
+                  <li class="mb-2">
+                    <a href="" class="hover:underline">Careers</a>
+                  </li>
+                  <li>
+                    <a href="" class="hover:underline">Doobie Direct</a>
+                  </li>
+              </ul>
+            </div>  
+
+            <div>
+              <div>
+                <h2 class="mb-6 text-white text-2xl font-thin font-['Gascogne-Bold'] dark:text-white">Contact us</h2>
+                <ul class="text-white text-sm font-normal font-['Good Sans']m">
+                    <li class="mb-2">
+                        <a href="" class="hover:underline">(888) 836-6243</a>
+                    </li>
+                    <li class="mb-2">
+                        <a href="" class="hover:underline">hello@trydoobie.com </a>
+                    </li>                  
+                </ul>
+
+                <div class="flex justify-evenly mt-10  sm:justify-center sm:mt-0">
+                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <rect width="24" height="24" fill="#C9C9C9"/>
+                      <g id="Guest Homepage">
+                      <g id="Mobile - Footer">
+                      <rect id="Rectangle 511" width="375" height="601" transform="matrix(1 0 0 -1 -168 209)" fill="#043852"/>
+                      <g id="Group 648">
+                      <path id="Vector" d="M19 0H5C2.239 0 0 2.239 0 5V19C0 21.761 2.239 24 5 24H19C21.762 24 24 21.761 24 19V5C24 2.239 21.762 0 19 0ZM8 19H5V8H8V19ZM6.5 6.732C5.534 6.732 4.75 5.942 4.75 4.968C4.75 3.994 5.534 3.204 6.5 3.204C7.466 3.204 8.25 3.994 8.25 4.968C8.25 5.942 7.467 6.732 6.5 6.732ZM20 19H17V13.396C17 10.028 13 10.283 13 13.396V19H10V8H13V9.765C14.396 7.179 20 6.988 20 12.241V19Z" fill="white"/>
+                      </g>
+                      </g>
+                      </g>
+                      </svg>
+                  </a>
+                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Vector" d="M12 2.163C15.204 2.163 15.584 2.175 16.85 2.233C20.102 2.381 21.621 3.924 21.769 7.152C21.827 8.417 21.838 8.797 21.838 12.001C21.838 15.206 21.826 15.585 21.769 16.85C21.62 20.075 20.105 21.621 16.85 21.769C15.584 21.827 15.206 21.839 12 21.839C8.796 21.839 8.416 21.827 7.151 21.769C3.891 21.62 2.38 20.07 2.232 16.849C2.174 15.584 2.162 15.205 2.162 12C2.162 8.796 2.175 8.417 2.232 7.151C2.381 3.924 3.896 2.38 7.151 2.232C8.417 2.175 8.796 2.163 12 2.163ZM12 0C8.741 0 8.333 0.014 7.053 0.072C2.695 0.272 0.273 2.69 0.073 7.052C0.014 8.333 0 8.741 0 12C0 15.259 0.014 15.668 0.072 16.948C0.272 21.306 2.69 23.728 7.052 23.928C8.333 23.986 8.741 24 12 24C15.259 24 15.668 23.986 16.948 23.928C21.302 23.728 23.73 21.31 23.927 16.948C23.986 15.668 24 15.259 24 12C24 8.741 23.986 8.333 23.928 7.053C23.732 2.699 21.311 0.273 16.949 0.073C15.668 0.014 15.259 0 12 0V0ZM12 5.838C8.597 5.838 5.838 8.597 5.838 12C5.838 15.403 8.597 18.163 12 18.163C15.403 18.163 18.162 15.404 18.162 12C18.162 8.597 15.403 5.838 12 5.838ZM12 16C9.791 16 8 14.21 8 12C8 9.791 9.791 8 12 8C14.209 8 16 9.791 16 12C16 14.21 14.209 16 12 16ZM18.406 4.155C17.61 4.155 16.965 4.8 16.965 5.595C16.965 6.39 17.61 7.035 18.406 7.035C19.201 7.035 19.845 6.39 19.845 5.595C19.845 4.8 19.201 4.155 18.406 4.155Z" fill="white"/>
+                      </svg>
+                  </a>
+                  <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path id="Vector" d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0V0Z" fill="white"/>
+                      </svg>                                          
+                  </a>                     
+              </div>
+              </div>             
+            </div>
+          </div>
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+    <div class="sm:flex sm:items-center sm:justify-between">
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Doobie™</a>. All Rights Reserved.
+        </span>        
+    </div>
+  </div>
+</footer>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+ 
+  </body>
+</html>
